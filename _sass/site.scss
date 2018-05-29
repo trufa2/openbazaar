@@ -434,12 +434,12 @@ a.alternative-link {
   color: $alternative-text-color;
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) { 
   .contributors-list {
     columns: 2;
     list-style-position: inside;
   }
-}
+ }
 
 .donate-title {
   font-size: 1.25em;
